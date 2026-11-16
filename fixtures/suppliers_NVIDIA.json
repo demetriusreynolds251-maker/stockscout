@@ -1,0 +1,15 @@
+{
+  "hits": {
+    "0001736297": {"name": "Astera Labs, Inc. (SAMPLE)", "ticker": "ALAB", "filings": [{"date": "2026-02-20", "url": "https://www.sec.gov/Archives/edgar/data/1736297/SAMPLE/alab-10k.htm"}]},
+    "0001045810": {"name": "NVIDIA Corp (SAMPLE)", "ticker": "NVDA", "filings": [{"date": "2026-02-26", "url": "https://www.sec.gov/Archives/edgar/data/1045810/SAMPLE/nvda-10k.htm"}]},
+    "0000002488": {"name": "Advanced Micro Devices (SAMPLE)", "ticker": "AMD", "filings": [{"date": "2026-02-05", "url": "https://www.sec.gov/Archives/edgar/data/2488/SAMPLE/amd-10k.htm"}]},
+    "0001368365": {"name": "Credo Technology Group (SAMPLE)", "ticker": "CRDO", "filings": [{"date": "2026-06-20", "url": "https://www.sec.gov/Archives/edgar/data/1368365/SAMPLE/crdo-10k.htm"}, {"date": "2025-06-21", "url": "https://www.sec.gov/Archives/edgar/data/1368365/SAMPLE/crdo-10k-2025.htm"}]},
+    "0000006281": {"name": "Analog Devices (SAMPLE)", "ticker": "ADI", "filings": [{"date": "2025-11-25", "url": "https://www.sec.gov/Archives/edgar/data/6281/SAMPLE/adi-10k.htm"}]}
+  },
+  "texts": {
+    "ALAB": "<html><body><p>Our products are deployed in AI servers built around NVIDIA GPUs. Sales to our top customers, including hyperscalers who purchase systems incorporating NVIDIA accelerators, accounted for a majority of our revenue. We have secured design wins across multiple NVIDIA-based platforms.</p></body></html>",
+    "AMD": "<html><body><p>We compete with NVIDIA in the market for graphics processing units and AI accelerators. NVIDIA is our principal competitor in data center GPUs and has significantly greater resources.</p></body></html>",
+    "CRDO": "<html><body><p>Our active electrical cables connect NVIDIA GPU clusters within AI data centers. Revenue from customers deploying NVIDIA systems accounted for a significant portion of our revenue. A small number of customers accounted for 80% of our revenue.</p></body></html>",
+    "ADI": "<html><body><p>Our analog products appear in a broad range of systems. Certain data center products are designed alongside NVIDIA reference platforms.</p></body></html>"
+  }
+}

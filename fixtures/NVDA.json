@@ -1,0 +1,24 @@
+{
+  "name": "NVIDIA Corporation (SAMPLE DATA)",
+  "sector": "Technology", "industry": "Semiconductors",
+  "summary": "Designs the graphics and AI chips (GPUs) that most AI data centers run on, plus the software (CUDA) that makes developers stick with them.",
+  "website": "https://www.nvidia.com",
+  "price": 180.25, "prev_close": 177.90, "day_change_pct": 1.32,
+  "high_52w": 212.19, "low_52w": 86.62, "market_cap": 4400000000000, "beta": 2.1,
+  "pe": 52.3, "forward_pe": 31.0, "eps": 3.45,
+  "revenue": 165000000000, "revenue_growth_pct": 56.0, "net_income": 86000000000,
+  "profit_margin_pct": 52.4, "free_cash_flow": 72000000000, "debt_to_equity": 12.5,
+  "dividend_yield_pct": 0.02, "short_pct_float": 1.1,
+  "institutional_pct": 66.0, "insider_pct": 4.1,
+  "analyst_target": 215.0, "analyst_rec": "strong_buy", "analyst_count": 48,
+  "next_earnings": "2026-11-19",
+  "officers": [
+    {"name": "Jensen Huang", "title": "Co-Founder, CEO & President", "age": 63, "pay": 49900000},
+    {"name": "Colette Kress", "title": "EVP & Chief Financial Officer", "age": 58, "pay": 14000000}
+  ],
+  "news": [
+    {"title": "SAMPLE: Nvidia unveils next-generation data-center GPU at developer event", "publisher": "Sample Wire", "link": "https://example.com/1", "date": "2026-10-22"},
+    {"title": "SAMPLE: Export rules on advanced AI chips under review again", "publisher": "Sample News", "link": "https://example.com/2", "date": "2026-10-21"},
+    {"title": "SAMPLE: Cloud giants raise spending forecasts for AI servers", "publisher": "Sample Wire", "link": "https://example.com/3", "date": "2026-10-20"}
+  ]
+}

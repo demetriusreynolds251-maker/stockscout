@@ -1,0 +1,21 @@
+# The discovery funnel: where StockScout looks for new ideas.
+# Change these any time, or use bot commands: !anchor add TSLA / !anchor remove TSLA
+
+# 1) Supplier chains: find smaller companies that name these big companies as customers
+#    in their yearly reports. name = how the company is written in filings.
+anchors:
+  - {name: NVIDIA, ticker: NVDA}
+  - {name: Microsoft, ticker: MSFT}
+  - {name: Amazon, ticker: AMZN}
+  - {name: Broadcom, ticker: AVGO}
+
+# 2) Market screen: hard rules every candidate must pass to be considered
+screen:
+  min_market_cap: 1000000000      # $1B  (smaller = riskier, less data)
+  max_market_cap: 50000000000     # $50B (bigger = already well known)
+  min_quarterly_sales_growth: 25  # percent, vs same quarter last year
+  also_use_yahoo_lists: [growth_technology_stocks, undervalued_growth_stocks, aggressive_small_caps]
+
+# 3) How many ideas to post each time
+top_n: 5
+max_candidates_scored: 60         # caps run time (each one takes a few seconds)

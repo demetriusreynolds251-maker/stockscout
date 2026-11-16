@@ -1,0 +1,113 @@
+Share-Back License, version 1.1
+
+Copyright (c) 2026 Demetrius Reynolds. All rights not granted below are
+reserved.
+
+1. Definitions
+
+   "Work" means the software, source code, scripts, models, data
+   files, documentation and other materials in this repository, and
+   any earlier or later version of them published by the Licensor.
+
+   "Licensor" means Demetrius Reynolds.
+
+   "You" means any person or organization exercising rights under this
+   license, including anyone acting on their behalf.
+
+   "Use" means running, copying, studying, testing, modifying or
+   building on the Work in any way, including using its methods, rules
+   or results to make decisions.
+
+   "Derivative" means anything that copies, modifies, translates or is
+   built from the Work, in whole or in part.
+
+   "Findings" means:
+     (a) every change, fix or improvement You make to the Work or to a
+         Derivative, as human-readable source code; and
+     (b) what You learned from Use: results, backtests, accuracy and
+         calibration measurements, and what did and did not work,
+         described in enough detail that someone else could understand
+         and check it.
+
+   "Commercial Use" means Use that is sold, licensed for a fee, offered
+   behind a paywall or subscription, included in a paid product or
+   service, or carried out mainly to earn money for You or anyone else.
+
+2. Permission
+
+   Subject to the conditions in this license, the Licensor grants You
+   a free, worldwide, non-exclusive license to Use the Work and create
+   Derivatives for any purpose other than Commercial Use.
+
+3. Share your Findings back, for free
+
+   If You Use the Work or a Derivative, You must make Your Findings
+   publicly available, free of charge, within 90 days of first
+   producing them, and keep them available for at least two years.
+   You can do this by opening an issue or pull request on the original
+   repository, or by publishing a public repository or write-up and
+   linking to it from an issue on the original repository.
+
+4. Credit
+
+   Keep this license and the copyright notice with every copy of the
+   Work and every Derivative. In Your Findings and in any Derivative
+   You share, include this credit line:
+
+       Based on StockScout by Demetrius Reynolds
+       https://github.com/demetriusreynolds251-maker
+
+5. Same terms
+
+   Any Derivative You share must be shared under this same license.
+   You may not add terms that take away anyone's rights under it.
+
+6. Commercial Use
+
+   Commercial Use is not allowed under this license. If You want to
+   use the Work commercially, contact the Licensor through
+   https://www.linkedin.com/in/demetrius-reynolds-655293421/ to ask
+   about a separate written commercial license. Only a written
+   agreement signed by the Licensor grants commercial rights.
+
+7. Patents
+
+   The Licensor grants You a license under any patents the Licensor
+   owns that are needed to Use the Work as allowed here. If You start
+   or join any legal claim that the Work infringes a patent, or You
+   seek a patent on the Work, its methods or anything built from it,
+   every right You have under this license ends immediately.
+
+8. Trademarks
+
+   This license does not give You the right to use the name "StockScout" or
+   the Licensor's name to promote anything, except for the required
+   credit line in section 4.
+
+9. Ending and fixing a breach
+
+   If You break any condition of this license, Your rights under it
+   end automatically. They are restored if You fully fix the breach
+   within 30 days of becoming aware of it, unless You have broken this
+   license before.
+
+10. No warranty and no liability
+
+   The Work is provided "as is", without warranty of any kind, express
+   or implied, including fitness for a particular purpose. To the
+   fullest extent the law allows, the Licensor is not liable for any
+   loss, damage or claim arising from Use. The Work is research
+   software. It is not betting, financial or investment advice and it
+   does not place bets. You are responsible for following the laws
+   that apply to You.
+
+11. Governing law
+
+   This license is governed by the laws of the State of Alabama,
+   United States, without regard to conflict-of-law rules. If any part
+   of it cannot be enforced, the rest stays in effect.
+
+Plain-language summary (not part of the license): use it and learn
+from it for free, share what you find and any improvements back
+publicly and for free, use the credit line, don't sell it or use it in
+a paid product without a written deal, and don't patent it.

@@ -1,0 +1,11 @@
+discord_webhook.txt
+discord_bot_token.txt
+anthropic_key.txt
+data/
+reports/
+research/
+_retired/
+*.log
+*.zip
+__pycache__/
+.DS_Store

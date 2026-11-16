@@ -1,0 +1,123 @@
+{
+ "name": "Astera Labs, Inc. (SAMPLE DATA)",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "summary": "Makes the small 'connectivity' chips and cables that let GPUs, memory and processors talk to each other at full speed inside AI servers. Customers include the big cloud companies and server builders that use Nvidia GPUs.",
+ "website": "https://www.asteralabs.com",
+ "price": 257.16,
+ "prev_close": 257.83,
+ "day_change_pct": -0.26,
+ "high_52w": 499.48,
+ "low_52w": 97.89,
+ "market_cap": 44613431296,
+ "beta": 3.69,
+ "pe": 127.3,
+ "forward_pe": 40.2,
+ "eps": 0.68,
+ "revenue": 1201918976,
+ "revenue_growth_pct": 104.5,
+ "net_income": 369494016,
+ "profit_margin_pct": 30.7,
+ "free_cash_flow": 91913128,
+ "debt_to_equity": 0.026,
+ "dividend_yield_pct": null,
+ "short_pct_float": 6.9,
+ "institutional_pct": 58.0,
+ "insider_pct": 15.0,
+ "analyst_target": 388.36,
+ "analyst_rec": "buy",
+ "analyst_count": 22,
+ "next_earnings": "2026-11-03",
+ "officers": [
+  {
+   "name": "Jitendra Mohan",
+   "title": "Co-Founder, CEO & Director",
+   "age": 52,
+   "pay": 8500000
+  },
+  {
+   "name": "Sanjay Gajendra",
+   "title": "Co-Founder, President & COO",
+   "age": 50,
+   "pay": 6200000
+  }
+ ],
+ "news": [
+  {
+   "title": "SAMPLE: Astera Labs expands PCIe 6 connectivity line for AI racks",
+   "publisher": "Sample Wire",
+   "link": "https://example.com/4",
+   "date": "2026-10-22"
+  },
+  {
+   "title": "SAMPLE: Insider sells shares under pre-set trading plan",
+   "publisher": "Sample Filings",
+   "link": "https://example.com/5",
+   "date": "2026-10-19"
+  }
+ ],
+ "earnings_growth_pct": 186.2,
+ "gross_margin_pct": 75.1,
+ "operating_margin_pct": 22.7,
+ "operating_cash_flow": 335712000,
+ "total_cash": 1252957952,
+ "total_debt": 44413000,
+ "current_ratio": 10.05,
+ "price_to_sales": 37.1,
+ "roe_pct": 25.8,
+ "target_low": 190.0,
+ "target_high": 500.0,
+ "rec_mean": 1.88,
+ "ma50": 310.76,
+ "ma200": 252.5,
+ "ttm": {
+  "revenue": 1201919000,
+  "operating_income": 273445000,
+  "net_income": 369494000,
+  "interest_income": 48571000,
+  "tax_provision": -47478000,
+  "operating_cash_flow": 335712000,
+  "capex": -59036000,
+  "free_cash_flow": 276676000,
+  "stock_comp": 195018000,
+  "shares_now": 173485000,
+  "shares_year_ago": 166211000
+ },
+ "quarterly_revenue": [
+  [
+   "2025-06-30",
+   191925000
+  ],
+  [
+   "2025-09-30",
+   230575000
+  ],
+  [
+   "2025-12-31",
+   270583000
+  ],
+  [
+   "2026-03-31",
+   308361000
+  ],
+  [
+   "2026-06-30",
+   392400000
+  ]
+ ],
+ "shares_short": 9176900,
+ "shares_short_prior": 9033499,
+ "short_days_to_cover": 2.29,
+ "bear_news": [
+  {
+   "title": "SAMPLE: Shares fall after analyst downgrade",
+   "publisher": "Sample",
+   "date": "2026-10-20"
+  },
+  {
+   "title": "SAMPLE: Stock could be 29% overvalued",
+   "publisher": "Sample",
+   "date": "2026-10-18"
+  }
+ ]
+}

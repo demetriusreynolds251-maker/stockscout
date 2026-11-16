@@ -1,0 +1,4 @@
+# Stocks tracked in the daily brief. Edit here or use bot commands: !add TICKER / !remove TICKER
+watchlist:
+  - {ticker: NVDA, name: Nvidia, why: The big AI chip company. Anchor stock for the list.}
+  - {ticker: ALAB, name: Astera Labs, why: Makes the connector chips that let Nvidia GPUs talk to each other inside AI servers.}

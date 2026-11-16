@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.reynolds.stockscout</string>
+  <!-- python3 (which has Full Disk Access) is the top-level process; it launches the shell script.
+       This is the pattern that gets past macOS's launchd restrictions. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/python3</string>
+    <string>-c</string>
+    <string>import subprocess,os; subprocess.call(['/bin/zsh', os.path.expanduser('~/stockscout_jobs/stockscout_daily.sh')])</string>
+  </array>
+  <key>WorkingDirectory</key><string>/Users/REPLACE_ME/stockscout_jobs</string>
+  <key>StandardOutPath</key><string>/Users/REPLACE_ME/stockscout_jobs/launchd_out.log</string>
+  <key>StandardErrorPath</key><string>/Users/REPLACE_ME/stockscout_jobs/launchd_err.log</string>
+  <!-- 7:15 AM every day. Change Hour/Minute to taste. -->
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>7</integer><key>Minute</key><integer>15</integer></dict>
+  <key>RunAtLoad</key><false/>
+</dict>
+</plist>

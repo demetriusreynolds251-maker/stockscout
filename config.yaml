@@ -1,0 +1,32 @@
+# StockScout settings — plain English notes on every line.
+# This project is fully separate from anything else on this machine.
+
+# The watchlist now lives in watchlist.yaml (the Discord bot edits it with !add / !remove).
+
+# Earnings alerts: how many days ahead to warn you.
+earnings_alert_days: [14, 7, 3, 1]
+
+# Where reports and data are saved (inside this project only).
+data_dir: data
+reports_dir: reports
+
+# Discord: put the webhook URL in the file named below (chmod 600), NOT here.
+discord_webhook_file: discord_webhook.txt
+
+# How many news headlines to pull per stock.
+news_items: 8
+
+# Written analysis by Claude (optional). Put your Anthropic API key in the file below (chmod 600).
+# No file = this step is skipped and everything else still runs.
+anthropic_key_file: anthropic_key.txt
+# Cost rules (measured on real reports):
+#   Sonnet, thinking off  ~3 cents per stock  -> your lookups in #lookup
+#   Haiku                 ~0.4 cents          -> the automatic daily brief
+#   Sonnet, thinking on   ~6 cents            -> one deep analysis in the week before a stock's earnings
+#   Repeats are free: same-day lookups reuse; the daily brief only re-runs when something changed.
+ai_model_lookup: claude-sonnet-5-5
+ai_model_daily: claude-haiku-5-5
+ai_in_daily: true                 # false = daily brief uses only the free scorecard
+ai_rerun_on_move_pct: 5           # daily brief re-analyzes a stock if its price moved more than this since last time
+ai_deep_before_earnings: true
+ai_deep_before_earnings_days: 7
