@@ -1,3 +1,6 @@
+<p align="center"><a href="https://demetriusreynolds251-maker.github.io/stockscout/"><img src="docs/preview.png" alt="stockscout preview" width="100%"></a></p>
+<p align="center"><a href="https://demetriusreynolds251-maker.github.io/stockscout/"><b>▶ See how it works</b></a></p>
+
 # 📈 StockScout
 
 **Researches stocks and explains them in plain English.** It writes daily briefs for a watchlist, sends earnings alerts, reads the news and rates each headline, digs through public SEC filings for leadership background and supply chains, and hunts for lesser-known supplier companies. Everything posts to Discord.
